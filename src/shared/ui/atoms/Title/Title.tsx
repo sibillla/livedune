@@ -1,5 +1,5 @@
 import {ReactNode} from 'react'
-import './title.css'
+import './title.scss'
 
 export enum TitleSize {
   LARGE,

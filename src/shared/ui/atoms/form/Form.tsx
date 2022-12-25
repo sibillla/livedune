@@ -1,5 +1,5 @@
 import React from 'react'
-import './form.css'
+import './form.scss'
 
 export function Form(props: React.FormHTMLAttributes<HTMLFormElement>) {
   const {children, ...rest} = props

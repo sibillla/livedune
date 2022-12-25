@@ -5,7 +5,7 @@ import {Provider} from 'react-redux'
 import {configureStore} from '@reduxjs/toolkit'
 import {AuthSlice} from './feature/auth'
 import {App} from './App'
-import './index.css'
+import './index.scss'
 import {RecoverySlice} from './feature/recovery'
 
 export const store = configureStore({

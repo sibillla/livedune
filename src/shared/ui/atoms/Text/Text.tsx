@@ -1,5 +1,5 @@
 import {ReactNode} from 'react'
-import './text.css'
+import './text.scss'
 
 export enum TextVariants {
   plain,

@@ -1,5 +1,5 @@
 import {Link as RouterLink} from 'react-router-dom'
-import './link.css'
+import './link.scss'
 import React, {ReactNode} from 'react'
 
 enum LinkAppearanceEnum {
