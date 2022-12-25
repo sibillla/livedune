@@ -1,0 +1,14 @@
+.link {
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--link-color);
+  text-decoration: none;
+  text-align: center;
+  font-width: 600;
+}
+.link:hover {
+  text-decoration: underline;
+}
+.text {
+  color: var(--text-grey);
+}

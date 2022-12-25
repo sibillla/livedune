@@ -1,0 +1,5 @@
+main {
+  max-width: calc(100% - 32px);
+  margin: auto;
+  width: 100%;
+}
