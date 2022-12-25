@@ -8,20 +8,21 @@ import {Text} from 'shared/ui/atoms/Text/Text'
 import {Form} from 'shared/ui/atoms/form/Form'
 import {Input} from 'shared/ui/atoms/Input/Input'
 import {Link} from 'shared/ui/atoms/Link/Link'
-import {login, selectIsError, selectIsLogged} from 'feature/auth'
+import {login, selectIsError, selectIsLoading, selectIsLogged} from 'feature/auth'
 import {InputPassword} from 'shared/ui/molecules/InputPassword/InputPassword'
 import {SocialButtons} from 'shared/ui/molecules/SocialButtons/SocialButtons'
+import {AppDispatch} from '../../index'
 
 export function SignIn() {
   const [name, setName] = useState('')
   const isLogged = useSelector(selectIsLogged)
+  const isLoading = useSelector(selectIsLoading)
   const isError = useSelector(selectIsError)
   const [email, setEmail] = useState('')
   const [error, setError] = useState(false)
   const [password, setPassword] = useState('')
   const navigate = useNavigate()
-  const dispatch = useDispatch()
-
+  const dispatch = useDispatch<AppDispatch>()
   useEffect(() => {
     if (isLogged) {
       navigate('/')
@@ -80,7 +81,9 @@ export function SignIn() {
             placeholder='Пароль'
             name='password'
           />
-          <Button type='submit'>Войти в аккаунт</Button>
+          <Button loading={isLoading} type='submit'>
+            Войти в аккаунт
+          </Button>
           <Link to='/forget-password'>Забыли пароль?</Link>
         </Form>
       </Main>
