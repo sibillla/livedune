@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/sibillla/livedune.github.io/static/css/main.53f8d699.css",
+    "main.js": "/sibillla/livedune.github.io/static/js/main.cc3da004.js",
+    "static/js/787.335184f6.chunk.js": "/sibillla/livedune.github.io/static/js/787.335184f6.chunk.js",
+    "static/media/logo.svg": "/sibillla/livedune.github.io/static/media/logo.fb08081847d1f265dda1e9b6f243cdaa.svg",
+    "static/media/email.svg": "/sibillla/livedune.github.io/static/media/email.be53375ec38e99b889af7a9310011b58.svg",
+    "static/media/facebook.svg": "/sibillla/livedune.github.io/static/media/facebook.12036d7fb8fd281339d5af897f544cfd.svg",
+    "static/media/google.svg": "/sibillla/livedune.github.io/static/media/google.781ab1feffab6f91f6313d24c660df13.svg",
+    "static/media/eye-close.svg": "/sibillla/livedune.github.io/static/media/eye-close.5b177d4b127bcc4955d52a904e7cf062.svg",
+    "index.html": "/sibillla/livedune.github.io/index.html",
+    "static/media/spinner.svg": "/sibillla/livedune.github.io/static/media/spinner.359ea8b64f8adb4c494517187a5ebad9.svg",
+    "static/media/eye-open.svg": "/sibillla/livedune.github.io/static/media/eye-open.e9ceae0c45b106073aa105a52e9c6356.svg",
+    "static/media/lock.svg": "/sibillla/livedune.github.io/static/media/lock.525cd4fc8210a0f0a7b88c310fb88583.svg",
+    "main.53f8d699.css.map": "/sibillla/livedune.github.io/static/css/main.53f8d699.css.map",
+    "main.cc3da004.js.map": "/sibillla/livedune.github.io/static/js/main.cc3da004.js.map",
+    "787.335184f6.chunk.js.map": "/sibillla/livedune.github.io/static/js/787.335184f6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.53f8d699.css",
+    "static/js/main.cc3da004.js"
+  ]
+}
