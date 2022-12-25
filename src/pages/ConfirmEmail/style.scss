@@ -1,0 +1,22 @@
+.confirm-email-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    margin-bottom: 16px;
+  }
+
+  p {
+    margin: auto;
+    margin-bottom: 40px;
+    text-align: center;
+    max-width: 560px;
+  }
+
+  button {
+    max-width: 354px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+}

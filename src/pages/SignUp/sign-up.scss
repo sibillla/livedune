@@ -1,0 +1,63 @@
+.sign-up-content {
+  button p {
+    margin-top: 24px;
+  }
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  max-width: 520px;
+  margin: auto;
+
+  h1 {
+    margin-top: 40px;
+  }
+
+  button[type='submit'] {
+    margin-top: 22px;
+    margin-bottom: 24px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  & > a {
+    margin-top: 8px;
+  }
+
+  label {
+    margin-bottom: 6px;
+  }
+
+  .promocode {
+    align-self: center;
+  }
+}
+
+.sign-up-content {
+  h1 {
+    margin-top: 40px;
+  }
+
+  & > .plain {
+    margin-bottom: 24px;
+    line-height: 30px;
+  }
+}
+
+.login-by-social {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+@media (min-width: 576px) {
+  .login-by-social {
+    flex-direction: row;
+    gap: 16px;
+  }
+}

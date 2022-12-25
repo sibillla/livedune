@@ -1,0 +1,46 @@
+.forget-password-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 420px;
+    width: 100%;
+    margin: auto;
+    gap: 32px;
+  }
+
+  img {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+  }
+
+  button {
+    margin-top: 32px;
+  }
+}
+
+.email-sent-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 8px;
+
+  img {
+    display: block;
+    max-width: 100px;
+    margin: auto;
+  }
+
+  button {
+    min-width: 354px;
+    margin: auto;
+    margin-top: 32px;
+  }
+}

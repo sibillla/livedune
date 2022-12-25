@@ -20,5 +20,8 @@ header {
 
   @media (min-width: 576px) {
     min-height: 100px;
+    p {
+      display: block;
+    }
   }
 }
